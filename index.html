@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      th{
-         color:blueviolet;
-         background-color: blanchedalmond;
-         font-size: 40px;
-
+      
+      p{
+        text-align: center;
+        font-style: oblique;
+        color: rgb(195, 41, 209);
       }
+      
       td{
         color:aquamarine;
         
@@ -22,20 +23,34 @@
       }
       li{
         background-color: brown;
+       
+
       }
       tr{
         background-color: red;
       }
       .yellowColor{
         background-color: yellow;
+        font-size: 30px;
+        color: blueviolet;
       }
       #blueColor{
         background-color: blue;
       }
+      
+      #container{
+        text-align: center;
+      }
+      .newclass{
+        display: inline-block;
+        width: 45%;
+        white-space: nowrap;
+
+      }
     </style>
 </head>
 <body>
-    <a href="https://www.youtube.com/"> farah</a>
+   <a href="https://www.youtube.com/"> farah</a>
    <p> hello farah</p>
    <a href="https://www.youtube.com/">
     <h1>next</h1>
@@ -53,16 +68,16 @@
 
 
 <b> html code </b><br>
-<strong> important text</strong><br>
+<strongn class="yellowColor"> important text</strong><br>
 <i> English</i><br>
 <em>formatting</em><br>
 <mark>marked text </mark><br>
 <small>small text</small><br>
 <del>deleted text</del><br>
-<ins>insert text</ins><br>
+<ins >insert text</ins><br>
  10<sub> 2</sub><br>
 10<sup>2</sup><br>
-<table border="2" >
+<table style=" border: 6px solid powderblue ;padding: 30px; margin:40px 30px ;" >
 <thead>
 
 <tr class="yellowColor" >
@@ -72,7 +87,7 @@
 </tr>
 </thead>
 <tbody>
-    <tr id="blueColor" >
+    <tr >
 <td>1</td>
 <td>installation</td>
 
@@ -81,7 +96,7 @@
 </td>
 
     </tr>
-    <tr>
+    <tr  id="blueColor">
         <td>2</td>
         <td> installation</td>
         <td>
@@ -96,7 +111,25 @@
 
 
 </table>
+<button style="width: 100px ;height: 100px;margin: 50px 100px;">i am button </button>
+<div id="container">
+<div id="firstDiv" class="newclass">
+<h1>new from div 1</h1>
+<h1>new from div 1</h1>
+<h1>new from div 1</h1>
+<h1>new from div 1</h1>
+<h1>new from div 1 </h1>
 
+</div>
+<div id="secoundDiv" class="newclass">
+<h1> new from div 2</h1> 
+<h1> new from div 2</h1> 
+<h1> new from div 2</h1> 
+<h1> new from div 2</h1> 
+<h1> new from div 2</h1> 
+
+</div>
+</div>
 
 </body>
 </html>
